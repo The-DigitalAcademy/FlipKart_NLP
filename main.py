@@ -18,7 +18,7 @@ vectorizer = TfidfVectorizer()
 model = jb.load('logistic_bagging_model.joblib')
 
 # Load the dataset
-data = pd.read_csv(r'C:\Users\John Tlaletso Diale\Desktop\FlipKart_NLP\flipkart-product-customer-reviews-dataset\Dataset-SA-clean.csv')
+data = pd.read_csv('flipkart-product-customer-reviews-dataset/Dataset-SA-clean.csv')
 
 data['preprocessed_text'] = data['preprocessed_text'].fillna('')
 
