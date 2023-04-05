@@ -18,4 +18,3 @@ Original Price- Actual price of the model in INR. Missing values or null values 
 Technology used:-
 
 1. Python
-2.
